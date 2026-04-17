@@ -1,4 +1,13 @@
 
+import React from 'react';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import Activities from './components/Activities';
+import Leaderboard from './components/Leaderboard';
+import Teams from './components/Teams';
+import Users from './components/Users';
+import Workouts from './components/Workouts';
+import logo from './octofitapp-small.png';
+
 function App() {
   return (
     <Router>
@@ -40,6 +49,6 @@ function App() {
     </Router>
   );
 }
-  import logo from '../public/octofitapp-small.png';
+
 
 export default App;
